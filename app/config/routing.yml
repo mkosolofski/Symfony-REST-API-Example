@@ -1,0 +1,7 @@
+acme_hello:
+    type: rest
+    resource: "@LOMAPIBundle/Resources/config/routes.yml"
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix: /api/doc

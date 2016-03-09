@@ -1,0 +1,9 @@
+lom.api.list:
+    type:     rest
+    prefix:   /api
+    resource: LOM\APIBundle\Controller\ListController
+
+lom.api.list_item:
+    type:     rest
+    prefix:   /api
+    resource: LOM\APIBundle\Controller\ListItemController

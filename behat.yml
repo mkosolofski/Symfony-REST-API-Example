@@ -1,0 +1,15 @@
+default:
+    extensions:
+        Behat\Symfony2Extension\Extension:
+            mink_driver: true
+        Behat\MinkExtension\Extension:
+            base_url: 'http://test.listofmine.com/app_dev.php'
+            default_session: 'symfony2'
+            goutte: ~
+
+api:
+    context:
+        class: LOM\APIBundle\Features\FeatureContext
+    extensions:
+        Behat\Symfony2Extension\Extension:
+            bundle: LOMAPIBundle
